@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Document Compressor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="compress row">
+            <h1>Compress your files</h1>
+            <div class="file-input">
+                <textarea id="outputText" rows="5" readonly placeholder="Input Your File"></textarea>
+                <input type="file" id="fileInput" accept="image/*,.txt,.docx,.pdf" class="choose"><br>
+                <button id="compressBtn">Compress</button>
+            </div>
+            <div class="result">
+                <h3>Output:</h3>
+                <p>Click <a href="#">HERE</a> to get your updated file</p>
+                <img id="outputImage" style="display:none; width: 200px;" />
+            </div>
+        </div>
+
+        <div class="decompress row">
+            <h1>Decompress your files</h1>
+            <div class="file-input">
+                <textarea id="outputText" rows="5" readonly placeholder="Input Your File"></textarea>
+                <input type="file" id="fileInput" accept="image/*,.txt,.docx,.pdf" class="choose"><br>
+                <button id="decompressBtn">Decompress</button>
+            </div>
+            <div class="result">
+                <h3>Output:</h3>
+                <p>Click <a href="#">HERE</a> to get your updated  file</p>
+                <img id="outputImage" style="display:none; width: 200px;" />
+            </div>
+        </div>
+
+        <!-- <div class="file-input">
+            <input type="file" id="fileInput" accept="image/*,.txt,.docx,.pdf">
+            <button id="compressBtn">Compress</button>
+            <button id="decompressBtn">Decompress</button>
+        </div>
+        <div class="result">
+            <h3>Output:</h3>
+            <p>Click <a href="#">HERE</a> to get your Compressed file</p>
+            <img id="outputImage" style="display:none; width: 200px;" />
+        </div> -->
+    </div>
+
+    <script src="script.js"></script>Z
+</body>
+</html>
