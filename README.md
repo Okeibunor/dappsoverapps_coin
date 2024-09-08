@@ -1,7 +1,3 @@
-Here's a sample `README.md` for the frontend of your **DappsOverApps Coin Adventure** project:
-
----
-
 # DappsOverApps Coin Adventure - Frontend
 
 This is the frontend for the **DappsOverApps Coin Adventure**, a playful and gamified web interface where users can bestow and check their coin balance in a blockchain-based application. The UI is designed using **Tailwind CSS** and features a retro-inspired theme with animated coin icons, similar to the style of a game like Duolingo.
